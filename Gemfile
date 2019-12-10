@@ -45,6 +45,9 @@ gem "js-routes"
 #popup message
 gem 'data-confirm-modal'
 
+#dump data to seed
+gem 'seed_dump'
+
 group :development, :test do
 	# Call 'byebug' anywhere in the code to stop execution and get a debugger console
 	gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
